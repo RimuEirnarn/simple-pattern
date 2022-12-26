@@ -2,7 +2,7 @@
 
 void piramida(int max) {
      if (max >= 10) {
-          Exception exc = Exception_init(""); exc._raise2(&exc, "Nope! Maksimal 9!", __LINE__, __FILE__);
+          yeet("Maximal tidak boleh lebih dari 9!", __LINE__, __FILE__);
      }
      printf("piramida\n");
      int maximum = (max + max);
@@ -27,7 +27,7 @@ void piramida(int max) {
 
 void kanan_kiri(int max) {
      if (max >= 10) {
-          Exception exc = Exception_init(""); exc._raise2(&exc, "Nope! Maksimal 9!", __LINE__, __FILE__);
+          yeet("Maximal tidak boleh lebih dari 9!", __LINE__, __FILE__);
      }
      printf("kanan -> kiri\n");
      int maximum = (max + max) - 1;
@@ -52,7 +52,7 @@ void kanan_kiri(int max) {
 
 void kiri_kanan(int max) {
      if (max >= 10) {
-          Exception exc = Exception_init(""); exc._raise2(&exc, "Nope! Maksimal 9!", __LINE__, __FILE__);
+          yeet("Maximal tidak boleh lebih dari 9!", __LINE__, __FILE__);
      }
      printf("kiri -> kanan\n");
      int maximum = (max + max) - 1;

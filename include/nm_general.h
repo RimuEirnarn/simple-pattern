@@ -55,6 +55,12 @@ Exception Error_init(char *name, char *reason, int code) {
      return self;
 }
 
+extern const inline void yeet(char *reason, int lineno, char *filename) {
+     Exception error = Error_init("Exception", reason, 1);
+     error._raise(&error, lineno, filename);
+}
+
+
 int copy_times(char out[], char *src, int times) {
      if (strlen(out) < strlen(src) * times) return 0;
      for (int i = 0; i <= (times - 1); i++) {
