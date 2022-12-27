@@ -8,4 +8,4 @@ Compile and run it.
 
 ## Addition
 
-The un-macroed version is out, anything starts with nm_ is unmacroed. Of course without `__LINE__` and `__FILE__` macro
+The un-macroed version is out, anything starts with nm_ is unmacroed. Of course except `__LINE__` and `__FILE__` macro
